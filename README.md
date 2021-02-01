@@ -22,3 +22,5 @@ As part of your presentation, make sure to touch on the following things:
 * If it's a Sound Toy, what kind of music mapping is taking place?  That is, what parts of the game (physics, motion, screen coordinates) are being mapped on to things like pitch, volume and timbre?  Is it a potential performance tool, instrument, or more suited to solo play?  Why?
 
 * If it's a hybrid/synesthetic game, what genres is it drawing from, and how is it making this gameplay "musical"?  How much of the music is pre-composed, vs generated based on player interaction?
+
+* If you can find any information on the development of the game, be sure to reference that as well!
