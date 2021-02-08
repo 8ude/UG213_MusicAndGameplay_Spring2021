@@ -5,6 +5,16 @@ See [the Syllabus](https://github.com/8ude/UG213_MusicAndGameplay_Spring2021/blo
 
 Itch.io is preferred for uploading assignments; if that doesn't work for any reason you can always [drop them here](https://drive.google.com/drive/folders/1Y29kA2MScYa_VtVYYSdVY5pU5G8ttM7j?usp=sharing)
 
+### Assignment 2: Sound Toy Prototype 1 (Due Wednesday Feb 17 at Noon Eastern)
+
+Working alone or in pairs, make a sound toy prototype.  You can either make a mod of the example project or start from scratch. Working in Unity is preferred.
+
+At the least, put your own sounds into the Sound Toy.  Think about visual improvements - this could be some kind of theming or just more visual juice.
+
+Uploads to itch.io are preferred, if you make it password protected, be sure to drop that in the slack or discord.
+
+
+
 ### Assignment 1: Music Game Critical Play
 
 Working alone or in pairs, choose a game from the following list, and a date to give a 5-minute presentation on it:
