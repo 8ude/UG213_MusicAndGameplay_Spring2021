@@ -13,7 +13,6 @@ NOTE THE CHANGE IN DUE DATE
 You can either expand on your original sound toy prototype, or go off in a different direction. If you choose the latter, I recommend experimenting with synthesis and rhythm in Unity.  If you focused on sound last time, maybe focus on visual theming this time around.
 
 
-
 ### Reading (By Feb 22nd)
 
 [Ableton - Learning Synthesis (up through "filters")](https://learningsynths.ableton.com/en/synth-basics/changing-the-sound)
