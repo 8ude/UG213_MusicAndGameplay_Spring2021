@@ -16,6 +16,7 @@ You can either expand on your original sound toy prototype, or go off in a diffe
 ### Reading (By Feb 22nd)
 
 [Ableton - Learning Synthesis (up through "filters")](https://learningsynths.ableton.com/en/synth-basics/changing-the-sound)
+
 [Ableton - Learning Music (up to "basslines")](https://learningmusic.ableton.com/)
 
 If music/synthesis is new for you, just focus on getting used to the vocabulary and building an intuition for what words like "lowpass filter" and "major scale" mean.
