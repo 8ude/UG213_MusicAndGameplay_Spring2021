@@ -6,6 +6,16 @@ See [the Syllabus](https://github.com/8ude/UG213_MusicAndGameplay_Spring2021/blo
 Itch.io is preferred for uploading assignments; if that doesn't work for any reason you can always [drop them here](https://drive.google.com/drive/folders/1Y29kA2MScYa_VtVYYSdVY5pU5G8ttM7j?usp=sharing)
 
 
+### Assignment 4: Rhythm Game Prototype 1 (Due Sunday Mar 7 at 11:59 pm Eastern)
+
+Designing/coding rhythm games can a bit trickier than sound toys - we need to deal with a fixed timeline and more precise gameplay.  For that reason, I'm not expecting much more than new music and a new beatmap for this first week, but be asking yourself: what would your ideal version of this game look, feel, and control like? 
+
+At the minimum, draft a new audio track and create a beatmap.  I will post a video shortly on how to do this in Wwise.
+
+Feel free to dig more into the code, make more drastic revisions, and change the visuals, to the extent that you have time this week. 
+
+When you're done, be sure to upload both Windows and Mac builds to itch (WebGL won't work)
+
 ### Assignment 3: Sound Toy Protoype 2 (Due Sunday Feb 28 at Noon Eastern)
 
 NOTE THE CHANGE IN DUE DATE
