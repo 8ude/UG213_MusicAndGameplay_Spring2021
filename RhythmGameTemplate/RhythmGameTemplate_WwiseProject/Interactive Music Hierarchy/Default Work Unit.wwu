@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5142D0E9-31DD-4B24-9FFE-8C6ACB1EFCDB}" SchemaVersion="97">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{5142D0E9-31DD-4B24-9FFE-8C6ACB1EFCDB}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="DistractingRhythmGame" ID="{52CB9DF3-F8BD-47C6-9271-3C361FB507B0}" ShortID="288636001">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="118"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="DistractingRhythmGame" ID="{18C22B15-EFB2-4A7D-B643-3B8E10A7E22A}" ShortID="343306908">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="133104.036281179"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{830FBF7D-C38A-479C-A44C-6F56AA50290A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="08 Two Bit Boss Battles" ID="{F587E3DA-2A01-4877-8DCD-386EBA1E5E79}" ShortID="881595134">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="08 Two Bit Boss Battles" ID="{D172039F-031A-49C4-A20A-D39D616F15B2}">
+											<Language>SFX</Language>
+											<AudioFile>08 Two Bit Boss Battles.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="881191192"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{CB48D306-FDCC-4665-9F0C-3ACCDB5013CD}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{9EAC898F-0155-4CA7-B231-CF0FCD0EE1E8}">
+											<ClipList>
+												<MusicClip Name="08 Two Bit Boss Battles" ID="{ABDF5ECE-2212-4FF8-9FF6-5FC8845615C7}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="133104.036281179"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="08 Two Bit Boss Battles" ID="{D172039F-031A-49C4-A20A-D39D616F15B2}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{BAF6F7C0-0C97-49F3-85DE-DDE722E68EFA}"/>
+								<MusicCue Name="Exit Cue" ID="{9220ACE8-FDC9-4B0A-B63C-07FD9D232394}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="131847.141726131"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="R" ID="{807333C2-9E2E-4679-A9D9-3130FB1F6A6E}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="8135.59322033898"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="G" ID="{4971268F-5AD0-4976-A9D3-069C89D67AF1}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="9152.54237288136"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="G" ID="{071F9E74-3E6C-40DB-8B24-E0928BC4FECB}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="11186.4406779661"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="R" ID="{F39DA099-93D9-420F-8714-8398FCB358E9}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="12203.3898305085"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="G" ID="{16C885F0-64FE-4095-9645-7378D53E9EC0}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="13220.3389830508"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="B" ID="{BBF37145-68A4-4664-A3CC-F7CC488A4531}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="15254.2372881356"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="R" ID="{294C1D21-EE7D-4213-8769-7AC7F9201246}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="16271.186440678"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="G" ID="{F9A50005-2C42-4DDE-9C8F-F41FBF6066ED}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="18305.0847457627"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="B" ID="{1627E94B-4364-4CFF-B02E-302CB3C0E09F}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="19322.0338983051"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="R" ID="{03A8C244-09E0-4A42-973F-EA2ACDDB4F53}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="20338.9830508475"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="EndLevel" ID="{B6A5A1E6-5737-438D-8E6C-CABB897006A6}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="24406.7796610169"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{651AD57C-DB81-4B5E-BD15-9A6A9268F7EE}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{752813D5-E6CA-47C6-8E32-C4B91B3AFFB0}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{93091994-ECBA-4BC9-835C-FA60F2C6F8E5}" ShortID="333903062">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{849A383C-5FE2-40E7-B4D2-DE56C55276DE}" ShortID="377186843">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="DistractingRhythmGame" ID="{18C22B15-EFB2-4A7D-B643-3B8E10A7E22A}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

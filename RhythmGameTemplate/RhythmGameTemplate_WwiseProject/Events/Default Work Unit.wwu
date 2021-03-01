@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlayNoteHighwayMusic" ID="{0130192A-8663-463B-BA15-34143CE01472}">
+					<ChildrenList>
+						<Action Name="" ID="{A0C42F4E-5EB2-46B0-9A03-3FFE486BB218}" ShortID="1018515844">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DistractingRhythmGame" ID="{52CB9DF3-F8BD-47C6-9271-3C361FB507B0}" WorkUnitID="{5142D0E9-31DD-4B24-9FFE-8C6ACB1EFCDB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopNoteHighwayMusic" ID="{6525028A-58B1-41EF-93F0-49886F0FD62F}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

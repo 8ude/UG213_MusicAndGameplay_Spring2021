@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	377537405	PlayNoteHighwayMusic			\Default Work Unit\PlayNoteHighwayMusic	
+	3188186427	StopNoteHighwayMusic			\Default Work Unit\StopNoteHighwayMusic	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	881191192	08 Two Bit Boss Battles	C:\Users\crber\Desktop\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\08 Two Bit Boss Battles_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\DistractingRhythmGame\DistractingRhythmGame\08 Two Bit Boss Battles		1833809
+
