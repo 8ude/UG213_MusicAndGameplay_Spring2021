@@ -6,7 +6,7 @@ See [the Syllabus](https://github.com/8ude/UG213_MusicAndGameplay_Spring2021/blo
 Itch.io is preferred for uploading assignments; if that doesn't work for any reason you can always [drop them here](https://drive.google.com/drive/folders/1Y29kA2MScYa_VtVYYSdVY5pU5G8ttM7j?usp=sharing)
 
 
-### Assignment 4: Rhythm Game Prototype 1 (Due Sunday Mar 7 at 11:59 pm Eastern)
+### Assignment 4: Rhythm Game Prototype 1 (Due Sunday Mar 7 at noon Eastern)
 
 Designing/coding rhythm games can a bit trickier than sound toys - we need to deal with a fixed timeline and more precise gameplay.  For that reason, I'm not expecting much more than new music and a new beatmap for this first week, but be asking yourself: what would your ideal version of this game look, feel, and control like? 
 
