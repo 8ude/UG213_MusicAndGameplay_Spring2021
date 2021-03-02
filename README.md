@@ -10,7 +10,7 @@ Itch.io is preferred for uploading assignments; if that doesn't work for any rea
 
 Designing/coding rhythm games can a bit trickier than sound toys - we need to deal with a fixed timeline and more precise gameplay.  For that reason, I'm not expecting much more than new music and a new beatmap for this first week, but be asking yourself: what would your ideal version of this game look, feel, and control like? 
 
-At the minimum, draft a new audio track and create a beatmap.  I will post a video shortly on how to do this in Wwise.
+At the minimum, draft a new audio track and create a beatmap.  [Here's a video on how to do this in Wwise.](https://drive.google.com/file/d/1SHUSfQ_lohI43cNPexuNy0EMBf6Jhr6u/view?usp=sharing)
 
 Feel free to dig more into the code, make more drastic revisions, and change the visuals, to the extent that you have time this week. 
 
