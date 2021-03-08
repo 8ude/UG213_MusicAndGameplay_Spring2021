@@ -121,6 +121,11 @@ public class NoteHighwayWwiseSync : MonoBehaviour
             case "LevelEnded":
                 OnLevelEnded.Invoke();
                 break;
+
+            case "A":
+                //put an A function Here 
+                Debug.Log("A stuff");
+                break;
             default:
                 break;
 

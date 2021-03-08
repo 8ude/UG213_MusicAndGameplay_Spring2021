@@ -27,6 +27,11 @@ public class AnimationSync : MonoBehaviour
     //our loop position on a 0-1 scale
     [SerializeField] float loopPositionNormalized;
 
+    //you should connect this Wwise -- either through a reference or a static variable
+    //for instance, on update : TimeMS = RhythmHeckinWwiseSync.GetTimeInMS();
+    public int TimeMS;
+    public float secondsPerBeat;
+
     //animator variables
     Animator animator;
     AnimatorStateInfo animatorStateInfo;
@@ -54,10 +59,10 @@ public class AnimationSync : MonoBehaviour
     void Update()
     {
         //make sure our clock has started (Clock has a bit of a start delay)
-        if (Beat.Clock.Instance.TimeMS >= 0d)
+        if (TimeMS >= 0d)
         {
             //Start playing the current animation from wherever the current beat loop is
-            animator.Play(currentState, -1, GetNormalizedLoopPosition(Beat.Clock.Instance.TimeMS));
+            animator.Play(currentState, -1, GetNormalizedLoopPosition(secondsPerBeat));
             //Set the speed to 0 so it will only change frames when you next update it
             animator.speed = 0;
         }
@@ -68,7 +73,7 @@ public class AnimationSync : MonoBehaviour
         //our Clock script doesn't intrinsically have the time in beats, so we need to do a bit of conversion
         //note that this assumes that timeMS starts at the same time as our song!  make sure your song file has no silence at the beginning.
 
-        float timeInBeats = (float)timeMS * 0.001f / Beat.Clock.Instance.BeatLength();
+        float timeInBeats = (float)timeMS * 0.001f / secondsPerBeat;
 
         //update our loop if we get to the end of it
         if (timeInBeats > (numLoops + 1) * numBeatsInLoop)

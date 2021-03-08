@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 1d163824c600e64381ba4536edf3c11d
     GuidInternal: 
-    m_lastTime: -8585870372001290067
+    m_lastTime: -8585863967162461941
     List:
     - name: NoteHighway
       guid: 8b61833c15511c4fa063f43a7b6f644d
@@ -68,8 +68,32 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6de5eaaec14eeb48818adbb4695ce2e1
     GuidInternal: 
-    m_lastTime: -8585871346247144626
+    m_lastTime: -8585863967331850320
     List:
+    - name: FallSound
+      guid: f7f8447185d2be42b387c4d54e3e99d0
+      id: 1221274415
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FallSound
+        ObjectType: 3
+      Path: Default Work Unit\FallSound
+      maxAttenuation: 0
+      maxDuration: 0.795488
+      minDuration: 0.795488
+    - name: JumpSound
+      guid: 6771bbd01f15f24684cd29fd83ec2d38
+      id: 1000191198
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: JumpSound
+        ObjectType: 3
+      Path: Default Work Unit\JumpSound
+      maxAttenuation: 0
+      maxDuration: 0.139864
+      minDuration: 0.139864
     - name: PlayNoteHighwayMusic
       guid: 2a19300163863b46ba1534143ce01472
       id: 377537405
@@ -80,8 +104,20 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\PlayNoteHighwayMusic
       maxAttenuation: 0
-      maxDuration: 133.10403
-      minDuration: 133.10403
+      maxDuration: 135.13794
+      minDuration: 135.13794
+    - name: PlayRhythmHeckinMusic
+      guid: 5aaecd7df634f54ea99afa17e316a3c0
+      id: 2897602606
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayRhythmHeckinMusic
+        ObjectType: 3
+      Path: Default Work Unit\PlayRhythmHeckinMusic
+      maxAttenuation: 0
+      maxDuration: 26.88
+      minDuration: 26.88
     - name: StopNoteHighwayMusic
       guid: 8a022565b158ef4193f049886f0fd62f
       id: 3188186427
@@ -91,6 +127,18 @@ MonoBehaviour:
       - ElementName: StopNoteHighwayMusic
         ObjectType: 3
       Path: Default Work Unit\StopNoteHighwayMusic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StopRhythmHeckinMusic
+      guid: 22fc882e7228d94e810eecba48e06a06
+      id: 3304723600
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: StopRhythmHeckinMusic
+        ObjectType: 3
+      Path: Default Work Unit\StopRhythmHeckinMusic
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -136,7 +184,5 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /RhythmGameTemplate_WwiseProject
-  - /RhythmGameTemplate_WwiseProject/Events
-  - /RhythmGameTemplate_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
