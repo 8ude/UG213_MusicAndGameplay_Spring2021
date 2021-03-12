@@ -65,12 +65,7 @@ public class InputEvaluator : MonoBehaviour
             _rhythmInput.inputString = gemGenerator.fallingGemB.playerInput;
             _rhythmInput.inputTime = wwiseTime;
             CachedInputs.Add(_rhythmInput);
-        }
-
-
-
-        
-        
+        }        
 
         //compare inputs to current beatMap windows
 

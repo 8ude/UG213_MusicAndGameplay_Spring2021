@@ -11,6 +11,9 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
+						<Reference Name="MidiTarget">
+							<ObjectRef Name="silence" ID="{D730C87D-6DBA-4FBA-9106-901FBA231DAA}" WorkUnitID="{B553D9F5-1E89-4FB4-8FC5-1BC741D530C4}"/>
+						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
 						</Reference>
@@ -105,6 +108,43 @@
 														</PropertyCurve>
 													</PropertyCurveList>
 												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="TestMidi" ID="{6627051C-74C2-4A3B-AC20-4EA5F43900A2}" ShortID="67003615">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MidiFileSource Name="TestMidi" ID="{C4A9FF4F-C5BF-4F79-A710-53B585E7547E}" ShortID="319551041">
+											<Language>SFX</Language>
+											<MidiFile>TestMidi.mid</MidiFile>
+											<MediaIDList>
+												<MediaID ID="1030516904"/>
+											</MediaIDList>
+										</MidiFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{1094A733-C9F6-491D-97E0-DE18E14B7389}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{F21BFEC4-0C9A-4A42-A7D9-A589D7787B71}">
+											<ClipList>
+												<MusicClipMidi Name="TestMidi" ID="{7D276A12-F07F-4698-A473-68D7319DB052}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="4000"/>
+														<Property Name="PlayAt" Type="Real64" Value="8135.59322033899"/>
+													</PropertyList>
+													<MidiSourceRef Name="TestMidi" ID="{C4A9FF4F-C5BF-4F79-A710-53B585E7547E}"/>
+												</MusicClipMidi>
 											</ClipList>
 										</MusicTrackSequence>
 									</SequenceList>
