@@ -189,7 +189,7 @@
 								<MusicCue Name="G" ID="{620144DB-9872-489D-AFFB-54F55FCD9275}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="2"/>
-										<Property Name="TimeMs" Type="Real64" Value="13220.3389830508"/>
+										<Property Name="TimeMs" Type="Real64" Value="13220.3389830509"/>
 									</PropertyList>
 								</MusicCue>
 								<MusicCue Name="B" ID="{F234C471-DBEC-4D73-9B5E-F447EA18E9AF}">
