@@ -6,6 +6,16 @@ See [the Syllabus](https://github.com/8ude/UG213_MusicAndGameplay_Spring2021/blo
 Itch.io is preferred for uploading assignments; if that doesn't work for any reason you can always [drop them here](https://drive.google.com/drive/folders/1Y29kA2MScYa_VtVYYSdVY5pU5G8ttM7j?usp=sharing)
 
 
+### Midterm Assignment: (Due Sunday April 4 at Noon Eastern)
+
+Working alone or in groups of 2-3, make a music game proof of concept (basically a more evolved prototype). You can use one of your prototypes as a starting point, if you wish, but I encourage you to branch out or start over with a new concept.
+
+[Here's a link to a rubric](https://docs.google.com/document/d/1T-0OPe9g5o-F4LFVjnSCuShDYxzpuY7RWMrSzagJq2E/edit?usp=sharing)
+
+Post a link to your game in the class Discord - either on itch.io or through [Google Drive](https://drive.google.com/drive/folders/1L6qY9uJ9o46hEq7Ucv_rLkNXBxcCwEqY?usp=sharing)
+
+We will be doing a Check-In on March 29 that I will grade Pass/Partial/Fail, worth 20 points (20% of your midterm grade). Aim for something playable, but I'm mostly just looking for progress.  If you are absent that day, please upload some gameplay footage to the [Google Drive](https://drive.google.com/drive/folders/1A_LzMs15shKmtytZGon2AFiFfVxJLejo?usp=sharing)
+
 ### Assignment 5: Rhythm Game Prototype 2 (Due Sunday Mar 15 at noon Eastern)
 
 Either take a second pass at your rhythm game (this could be designing a new level, or making a new feature), or try a different approach.  
