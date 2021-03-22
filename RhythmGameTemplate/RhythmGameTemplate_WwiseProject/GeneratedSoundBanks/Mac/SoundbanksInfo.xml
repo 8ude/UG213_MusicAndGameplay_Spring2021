@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1268211518" Language="SFX" Hash="2603776488">
+		<SoundBank Id="1268211518" Language="SFX" Hash="2471668283">
 			<ObjectPath>\SoundBanks\Default Work Unit\NoteHighway</ObjectPath>
 			<ShortName>NoteHighway</ShortName>
 			<Path>NoteHighway.bnk</Path>
@@ -38,6 +38,10 @@
 							<ShortName>08 Two Bit Boss Battles.wav</ShortName>
 							<Path>SFX\08 Two Bit Boss Battles_696A9007.wem</Path>
 						</File>
+						<File Id="1027161693" Language="SFX">
+							<ShortName>RhythmGameArp.wav</ShortName>
+							<Path>SFX\RhythmGameArp_696A9007.wem</Path>
+						</File>
 						<File Id="1030516904" Language="SFX">
 							<ShortName>TestMidi.mid</ShortName>
 							<Path>SFX\TestMidi_98F6F069.wmid</Path>
@@ -55,8 +59,11 @@
 				<Event Id="3188186427" Name="StopNoteHighwayMusic" ObjectPath="\Events\Default Work Unit\StopNoteHighwayMusic" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3304723600" Name="StopRhythmHeckinMusic" ObjectPath="\Events\Default Work Unit\StopRhythmHeckinMusic" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="2041858215" Name="PlayerFiring" ObjectPath="\Game Parameters\Default Work Unit\PlayerFiring"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1201458697">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1522080703">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

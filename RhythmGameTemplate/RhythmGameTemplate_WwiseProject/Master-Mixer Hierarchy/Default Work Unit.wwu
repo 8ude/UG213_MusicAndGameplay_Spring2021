@@ -9,6 +9,15 @@
 							<ObjectRef Name="System" ID="{97FBD659-8C4E-4DDB-8C1E-B5C40AA531A9}" WorkUnitID="{C6F958EF-B8E3-4A36-A4F5-B7BF8E46A45F}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{7CF6B3D8-BBA7-4FEA-9EC6-179706208F02}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="MusicLevel" ID="{3C661CE8-C9BE-40AC-BD2A-320125BBC0B5}" WorkUnitID="{D18E7E1E-DCB6-49A7-8222-43DA8C2CC13F}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

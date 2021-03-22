@@ -15,7 +15,7 @@
 							<ObjectRef Name="silence" ID="{D730C87D-6DBA-4FBA-9106-901FBA231DAA}" WorkUnitID="{B553D9F5-1E89-4FB4-8FC5-1BC741D530C4}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
+							<ObjectRef Name="Music" ID="{7CF6B3D8-BBA7-4FEA-9EC6-179706208F02}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -145,6 +145,78 @@
 													</PropertyList>
 													<MidiSourceRef Name="TestMidi" ID="{C4A9FF4F-C5BF-4F79-A710-53B585E7547E}"/>
 												</MusicClipMidi>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="RhythmGameArp" ID="{4DF7DF3B-FD1C-4D17-BE8A-9EAF2282F610}" ShortID="126817403">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{A9F112FA-F76F-41F2-B8D8-12D4764C07CA}" ShortID="445742897">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="PlayerFiring" ID="{E52D5B6D-AD8E-46D5-AD48-1C9530E8E82D}" WorkUnitID="{660A95BE-E4F6-4AD4-B093-FA9E3B67E008}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{4A9EDC6C-28DB-4FCD-B64E-80AB893E589B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RhythmGameArp" ID="{D3048CB0-679C-4255-A3B4-1CE6A1C525A8}">
+											<Language>SFX</Language>
+											<AudioFile>RhythmGameArp.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1027161693"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A1C1F27C-67E1-4329-98AE-B74091C105EF}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{7CFA07E9-93EE-443E-96FE-1A7895C8B7D8}">
+											<ClipList>
+												<MusicClip Name="RhythmGameArp" ID="{F9B93C18-BFC0-45B2-969B-C9753FCADC2C}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="81355.9410430839"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+														<Property Name="PlayAt" Type="Real64" Value="2033.89830508475"/>
+													</PropertyList>
+													<AudioSourceRef Name="RhythmGameArp" ID="{D3048CB0-679C-4255-A3B4-1CE6A1C525A8}"/>
+												</MusicClip>
 											</ClipList>
 										</MusicTrackSequence>
 									</SequenceList>

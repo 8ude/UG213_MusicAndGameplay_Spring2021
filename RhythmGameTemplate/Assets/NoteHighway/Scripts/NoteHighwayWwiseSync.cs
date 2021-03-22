@@ -77,7 +77,7 @@ public class NoteHighwayWwiseSync : MonoBehaviour
         //we only want music-specific information, so we cast this info accordingly
         AkMusicSyncCallbackInfo _musicInfo;
         AkMIDIEventCallbackInfo _midiInfo;  
-        //check if it's music callback (beat, marker etc)
+        //check if it's music callback (beat, marker, bar, grid etc)
         if (in_info is AkMusicSyncCallbackInfo)
         {
             //Debug.Log("music callback");
@@ -89,8 +89,6 @@ public class NoteHighwayWwiseSync : MonoBehaviour
                 case AkCallbackType.AK_MusicSyncUserCue:
 
                     CustomCues(_musicInfo.userCueName, _musicInfo);
-
-                    secondsPerBeat = _musicInfo.segmentInfo_fBeatDuration;
 
                     break;
                 case AkCallbackType.AK_MusicSyncBeat:

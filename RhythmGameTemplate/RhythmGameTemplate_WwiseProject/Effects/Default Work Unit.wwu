@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D18E7E1E-DCB6-49A7-8222-43DA8C2CC13F}" SchemaVersion="97">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{D18E7E1E-DCB6-49A7-8222-43DA8C2CC13F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D18E7E1E-DCB6-49A7-8222-43DA8C2CC13F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="MusicLevel" ID="{3C661CE8-C9BE-40AC-BD2A-320125BBC0B5}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">					<PluginData>
+	<GameParameter Name="MusicLevel" ID="{7FFC1A2B-F5B7-4CE1-8521-C40ECB23B936}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="LowMeter" ID="{BE124899-25CD-4D78-B04D-A7954FE6B44D}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3"/>
+				<Effect Name="HighMeter" ID="{B789A4CE-278C-485A-AC88-8096347062BB}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

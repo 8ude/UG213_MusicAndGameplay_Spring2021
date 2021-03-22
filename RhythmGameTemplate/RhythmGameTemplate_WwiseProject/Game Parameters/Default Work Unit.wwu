@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{660A95BE-E4F6-4AD4-B093-FA9E3B67E008}" SchemaVersion="97">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{660A95BE-E4F6-4AD4-B093-FA9E3B67E008}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{660A95BE-E4F6-4AD4-B093-FA9E3B67E008}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="MusicLevel" ID="{7FFC1A2B-F5B7-4CE1-8521-C40ECB23B936}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="PlayerFiring" ID="{E52D5B6D-AD8E-46D5-AD48-1C9530E8E82D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

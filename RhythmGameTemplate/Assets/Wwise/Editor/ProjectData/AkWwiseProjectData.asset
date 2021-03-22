@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 4a857d6160b36442a9fd7563999d440c
     GuidInternal: 
-    m_lastTime: -8585871583927731724
+    m_lastTime: -8585851877709405056
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -41,6 +41,17 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
       Path: Default Work Unit\Master Audio Bus
+    - name: Music
+      guid: d8b3f67ca7bbea4f9ec6179706208f02
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Music
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\Music
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -150,8 +161,26 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: be950a66f6e4d44ab093fa9e3b67e008
     GuidInternal: 
-    m_lastTime: -8585871583926714443
-    List: []
+    m_lastTime: -8585851877191506562
+    List:
+    - name: MusicLevel
+      guid: 2b1afc7fb7f5e14c8521c40ecb23b936
+      id: 543979504
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MusicLevel
+        ObjectType: 13
+      Path: Default Work Unit\MusicLevel
+    - name: PlayerFiring
+      guid: 6d5b2de58eadd546ad481c9530e8e82d
+      id: 2041858215
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayerFiring
+        ObjectType: 13
+      Path: Default Work Unit\PlayerFiring
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -184,7 +213,5 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /RhythmGameTemplate_WwiseProject
-  - /RhythmGameTemplate_WwiseProject/Events
-  - /RhythmGameTemplate_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

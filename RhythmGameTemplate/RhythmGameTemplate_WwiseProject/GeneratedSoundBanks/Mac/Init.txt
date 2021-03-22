@@ -1,5 +1,9 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Effect plug-ins	ID	Name	Type				Notes
+	543979504	MusicLevel	Wwise Meter			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

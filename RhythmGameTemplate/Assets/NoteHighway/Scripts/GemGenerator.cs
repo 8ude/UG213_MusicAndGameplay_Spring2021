@@ -101,16 +101,4 @@ public class GemGenerator : MonoBehaviour
         fallingGem.PerfectWindowEnd = fallingGem.crossingTime + (0.5f * PerfectWindowMillis);
     }
 
-
-    private void Awake()
-    {
-
-    }
-
-    public void Reset()
-    {
-
-    }
-
-
 }

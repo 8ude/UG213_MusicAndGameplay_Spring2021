@@ -46,7 +46,10 @@ public class InputEvaluator : MonoBehaviour
         {
             RhythmInput _rhythmInput = new RhythmInput();
             _rhythmInput.inputString = gemGenerator.fallingGemR.playerInput;
+
+            //might not be necessary?
             _rhythmInput.inputTime = wwiseTime;
+
             CachedInputs.Add(_rhythmInput);
             Debug.Log("Cached Input: " + _rhythmInput.inputString);
         }
