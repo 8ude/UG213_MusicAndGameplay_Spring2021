@@ -15,7 +15,7 @@
 							<ObjectRef Name="silence" ID="{D730C87D-6DBA-4FBA-9106-901FBA231DAA}" WorkUnitID="{B553D9F5-1E89-4FB4-8FC5-1BC741D530C4}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Music" ID="{7CF6B3D8-BBA7-4FEA-9EC6-179706208F02}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
+							<ObjectRef Name="MusicBus" ID="{E04DB227-D907-42ED-9E6C-60F47BB92E65}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -67,6 +67,44 @@
 													</PropertyList>
 													<AudioSourceRef Name="08 Two Bit Boss Battles" ID="{D5E21695-1B49-4C7F-A7ED-27CFBCF9F6D0}"/>
 													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{FD96093D-2728-4D46-A542-5CEC7762D926}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>133.104036281179</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{AE2F8EEC-48EE-4C29-B2ED-8EAD29F8570F}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>133.104036281179</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
 														<PropertyCurve PropertyName="Volume">
 															<Curve Name="" ID="{BE2DCDD6-A373-40A5-A706-7DCA74897EDA}">
 																<PropertyList>
@@ -151,41 +189,16 @@
 								</MusicTrack>
 								<MusicTrack Name="RhythmGameArp" ID="{4DF7DF3B-FD1C-4D17-BE8A-9EAF2282F610}" ShortID="126817403">
 									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-3</Value>
 											</ValueList>
-											<RTPCList>
-												<RTPC Name="" ID="{A9F112FA-F76F-41F2-B8D8-12D4764C07CA}" ShortID="445742897">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="PlayerFiring" ID="{E52D5B6D-AD8E-46D5-AD48-1C9530E8E82D}" WorkUnitID="{660A95BE-E4F6-4AD4-B093-FA9E3B67E008}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{4A9EDC6C-28DB-4FCD-B64E-80AB893E589B}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
+											<ObjectRef Name="MusicBus" ID="{E04DB227-D907-42ED-9E6C-60F47BB92E65}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>

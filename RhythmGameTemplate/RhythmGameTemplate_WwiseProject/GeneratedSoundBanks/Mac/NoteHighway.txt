@@ -6,9 +6,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3188186427	StopNoteHighwayMusic			\Default Work Unit\StopNoteHighwayMusic	
 	3304723600	StopRhythmHeckinMusic			\Default Work Unit\StopRhythmHeckinMusic	
 
-Game Parameter	ID	Name			Wwise Object Path	Notes
-	2041858215	PlayerFiring			\Default Work Unit\PlayerFiring	
-
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	509367424	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\silence\Wwise Silence	
 

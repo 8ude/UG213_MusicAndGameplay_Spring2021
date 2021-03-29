@@ -26,12 +26,12 @@ public class ObstacleMove : MonoBehaviour {
 		
 		
 		initLocation = transform.position;
-		direction = dropLocation - initLocation;
-		destination = dropLocation;
+		direction = endLocation - initLocation;
+		destination = endLocation;
 		float distance = direction.magnitude;
 		
 		direction.Normalize();
-		float travelTime = beatsToDropLocation * (RhythmHeckinWwiseSync.secondsPerBeat);
+		float travelTime = beatsToEndLocation * (RhythmHeckinWwiseSync.secondsPerBeat);
 
 		speed = distance / travelTime;
 		

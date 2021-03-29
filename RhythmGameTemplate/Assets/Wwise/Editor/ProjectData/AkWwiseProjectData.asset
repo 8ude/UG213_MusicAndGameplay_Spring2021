@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 4a857d6160b36442a9fd7563999d440c
     GuidInternal: 
-    m_lastTime: -8585851877709405056
+    m_lastTime: -8585845825216258575
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -52,6 +52,17 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 2
       Path: Default Work Unit\Master Audio Bus\Music
+    - name: MusicBus
+      guid: 27b24de007d9ed429e6c60f47bb92e65
+      id: 2886307548
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: MusicBus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\MusicBus
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -161,8 +172,44 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: be950a66f6e4d44ab093fa9e3b67e008
     GuidInternal: 
-    m_lastTime: -8585851877191506562
+    m_lastTime: -8585845867764430789
     List:
+    - name: ArpMeter
+      guid: b3d8b6c15106404ca7682d79814d825e
+      id: 2078123699
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ArpMeter
+        ObjectType: 13
+      Path: Default Work Unit\ArpMeter
+    - name: Highs
+      guid: 049cb127e9279542a1e3aba4c6859ea2
+      id: 2915956320
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Highs
+        ObjectType: 13
+      Path: Default Work Unit\Highs
+    - name: Lows
+      guid: ad70ceade8f8a84798e6b553386d48a3
+      id: 288343052
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Lows
+        ObjectType: 13
+      Path: Default Work Unit\Lows
+    - name: Mids
+      guid: aca7215cc790524dbe88985806700b7c
+      id: 2710193272
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mids
+        ObjectType: 13
+      Path: Default Work Unit\Mids
     - name: MusicLevel
       guid: 2b1afc7fb7f5e14c8521c40ecb23b936
       id: 543979504
@@ -172,6 +219,15 @@ MonoBehaviour:
       - ElementName: MusicLevel
         ObjectType: 13
       Path: Default Work Unit\MusicLevel
+    - name: MusicMeter
+      guid: c29700821aca6a45a6dc8c7c6983eec0
+      id: 2562106129
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MusicMeter
+        ObjectType: 13
+      Path: Default Work Unit\MusicMeter
     - name: PlayerFiring
       guid: 6d5b2de58eadd546ad481c9530e8e82d
       id: 2041858215

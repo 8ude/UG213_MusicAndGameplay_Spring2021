@@ -621,7 +621,7 @@
 									<PropertyList>
 										<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
 										<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
-										<Property Name="FrequencyBand3" Type="Real32" Value="390"/>
+										<Property Name="FrequencyBand3" Type="Real32" Value="304"/>
 										<Property Name="OnOffBand1" Type="bool" Value="False"/>
 										<Property Name="OnOffBand2" Type="bool" Value="False"/>
 									</PropertyList>
@@ -665,11 +665,11 @@
 									<PropertyList>
 										<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
 										<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
-										<Property Name="FrequencyBand1" Type="Real32" Value="800"/>
+										<Property Name="FrequencyBand1" Type="Real32" Value="404"/>
 										<Property Name="FrequencyBand2" Type="Real32" Value="3000"/>
-										<Property Name="FrequencyBand3" Type="Real32" Value="4660"/>
+										<Property Name="FrequencyBand3" Type="Real32" Value="3225"/>
 										<Property Name="GainBand2" Type="Real32" Value="18"/>
-										<Property Name="OutputLevel" Type="Real32" Value="-12"/>
+										<Property Name="OnOffBand2" Type="bool" Value="False"/>
 									</PropertyList>
 								</Effect>
 							</ChildrenList>

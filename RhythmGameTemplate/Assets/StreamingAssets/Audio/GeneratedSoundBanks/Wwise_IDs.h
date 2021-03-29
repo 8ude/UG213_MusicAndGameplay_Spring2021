@@ -24,7 +24,7 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID MUSICLEVEL = 543979504U;
-        static const AkUniqueID PLAYERFIRING = 2041858215U;
+        static const AkUniqueID MUSICMETER = 2562106129U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS
@@ -37,6 +37,7 @@ namespace AK
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID MUSICBUS = 2886307548U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

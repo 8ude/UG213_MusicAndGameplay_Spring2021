@@ -13,7 +13,17 @@
 						<Bus Name="Music" ID="{7CF6B3D8-BBA7-4FEA-9EC6-179706208F02}">
 							<ReferenceList>
 								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
-									<ObjectRef Name="MusicLevel" ID="{3C661CE8-C9BE-40AC-BD2A-320125BBC0B5}" WorkUnitID="{D18E7E1E-DCB6-49A7-8222-43DA8C2CC13F}"/>
+									<ObjectRef Name="MusicMeter" ID="{D860CA87-E710-4C36-A082-6586F949548B}" WorkUnitID="{D18E7E1E-DCB6-49A7-8222-43DA8C2CC13F}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<Bus Name="MusicBus" ID="{E04DB227-D907-42ED-9E6C-60F47BB92E65}">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="MusicMeterSequel" ID="{9CC940AD-FEA3-44EB-909E-B707D711920B}" WorkUnitID="{D18E7E1E-DCB6-49A7-8222-43DA8C2CC13F}"/>
 								</Reference>
 							</ReferenceList>
 						</Bus>
