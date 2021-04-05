@@ -10,22 +10,34 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="Music" ID="{7CF6B3D8-BBA7-4FEA-9EC6-179706208F02}">
-							<ReferenceList>
-								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
-									<ObjectRef Name="MusicMeter" ID="{D860CA87-E710-4C36-A082-6586F949548B}" WorkUnitID="{D18E7E1E-DCB6-49A7-8222-43DA8C2CC13F}"/>
-								</Reference>
-							</ReferenceList>
-						</Bus>
 						<Bus Name="MusicBus" ID="{E04DB227-D907-42ED-9E6C-60F47BB92E65}">
-							<PropertyList>
-								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
 									<ObjectRef Name="MusicMeterSequel" ID="{9CC940AD-FEA3-44EB-909E-B707D711920B}" WorkUnitID="{D18E7E1E-DCB6-49A7-8222-43DA8C2CC13F}"/>
 								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="LowFrequencies" ID="{DD7B6417-F0CF-4753-BA98-B094B0CDB0E6}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
+								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AuxBus Name="LowFrequencies" ID="{DD7B6417-F0CF-4753-BA98-B094B0CDB0E6}">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-96</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+											<ObjectRef Name="LowMeter" ID="{BE124899-25CD-4D78-B04D-A7954FE6B44D}" WorkUnitID="{D18E7E1E-DCB6-49A7-8222-43DA8C2CC13F}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+							</ChildrenList>
 						</Bus>
 					</ChildrenList>
 				</Bus>

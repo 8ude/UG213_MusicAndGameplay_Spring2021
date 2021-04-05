@@ -75,6 +75,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="PlayRainDrop" ID="{07ABA980-6EF3-42D9-88E9-47995FCD7885}">
+					<ChildrenList>
+						<Action Name="" ID="{BC81ED62-D49F-4ADE-8E98-018624F6EF8A}" ShortID="154903727">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Raindrop" ID="{73DAA0B9-1C02-46D8-A764-8D6A9CEC9C30}" WorkUnitID="{B553D9F5-1E89-4FB4-8FC5-1BC741D530C4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

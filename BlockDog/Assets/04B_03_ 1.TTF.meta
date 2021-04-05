@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 81d452cc60bb1e64ca3884737f11ee36
+timeCreated: 1491524570
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: 04b03
+  fontNames:
+  - 04b03
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 2
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

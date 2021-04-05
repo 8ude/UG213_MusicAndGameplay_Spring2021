@@ -189,14 +189,46 @@
 								</MusicTrack>
 								<MusicTrack Name="RhythmGameArp" ID="{4DF7DF3B-FD1C-4D17-BE8A-9EAF2282F610}" ShortID="126817403">
 									<PropertyList>
-										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-3</Value>
 											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{B0B7FAB4-754A-4130-B57E-5217CA6A57E9}" ShortID="179406429">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="ArpOn" ID="{AED5635A-E2EE-4FCA-B6A3-076882B54D3A}" WorkUnitID="{660A95BE-E4F6-4AD4-B093-FA9E3B67E008}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{6AF939D1-269C-4D6D-BAE2-2D22837929BC}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+											<ObjectRef Name="ArpGain" ID="{3332FCB5-4419-4753-93FA-999DAA55AF1C}" WorkUnitID="{D18E7E1E-DCB6-49A7-8222-43DA8C2CC13F}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+											<ObjectRef Name="ArpLevel" ID="{91A3A00C-9B03-4D62-8341-23BFF36209ED}" WorkUnitID="{D18E7E1E-DCB6-49A7-8222-43DA8C2CC13F}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="MusicBus" ID="{E04DB227-D907-42ED-9E6C-60F47BB92E65}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
 										</Reference>

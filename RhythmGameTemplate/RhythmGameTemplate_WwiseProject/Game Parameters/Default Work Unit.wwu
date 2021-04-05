@@ -17,6 +17,18 @@
 						<Property Name="Min" Type="Real64" Value="-48"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="ArpOn" ID="{AED5635A-E2EE-4FCA-B6A3-076882B54D3A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="ArpMeter" ID="{BFFFA190-2CBF-4F6A-9118-AF3720B7EF76}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

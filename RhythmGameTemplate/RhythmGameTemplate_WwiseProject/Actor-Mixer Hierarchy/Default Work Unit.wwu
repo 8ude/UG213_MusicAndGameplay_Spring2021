@@ -126,6 +126,16 @@
 						<ActiveSource Name="Wwise Silence" ID="{BC3384B6-82EE-4106-BA19-6C71F995B18B}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Raindrop" ID="{73DAA0B9-1C02-46D8-A764-8D6A9CEC9C30}" ShortID="1063311996">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{830FBF7D-C38A-479C-A44C-6F56AA50290A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
+						</Reference>
+					</ReferenceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
