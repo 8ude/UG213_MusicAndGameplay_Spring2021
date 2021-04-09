@@ -11,7 +11,7 @@ Take an existing game (I have two example games for you to choose from - [Block 
 
 This is an open ended assignment that invites you to experiment with what a "music game" can be, and how connecting musical layers to gameplay can change an experience.
 
-he minimum for this assignment is to replace the sound - it can be as active or as minimal as you choose. Both Projects have an Audio Director game object (this is called Audio Manager in Tour) where all the sound effects and musical loops live.  You're free to change whatever you'd like in the code and visuals as well.
+The minimum for this assignment is to replace the sound - it can be as active or as minimal as you choose. Both Projects have an Audio Director game object (this is called Audio Manager in Tour) where all the sound effects and musical loops live.  You're free to change whatever you'd like in the code and visuals as well.
 
 When you're done, make a build and post it to itch (be sure to credit the original creator - Gabe Cuzzillo for Block Dog or Hang Ruan for Tour).  If you can't post to itch, upload a build [HERE](https://drive.google.com/drive/folders/1O7WtNXAtBMtJuk5FfoMsSs6I-RAoPmel?usp=sharing) 
 
